@@ -1,11 +1,9 @@
-import Header from "../components/shared/header";
 import Nav from "../components/shared/Nav";
 
 export default function Layout({ children }) {
   return (
     <>
       <div id="wrapper">
-        <Header />
         <div className="container">
           <Nav />
           <div className="content">{children}</div>
@@ -20,9 +18,15 @@ export default function Layout({ children }) {
         .container {
           display: flex;
           height: 100%;
+          padding: 15px 15px 15px 0;
+          background: #a6b1e1;
         }
         .content {
           flex: 1;
+          overflow: auto;
+          padding: 20px;
+          background: #fff;
+          border-radius: 20px;
           overflow: auto;
         }
       `}</style>
