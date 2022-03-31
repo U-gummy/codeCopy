@@ -5,7 +5,7 @@ export default function Title({ name }) {
       <style jsx>{`
         h2 {
           font-size: 40px;
-          color: #424874;
+          color: #000;
           letter-spacing: 5px;
         }
       `}</style>

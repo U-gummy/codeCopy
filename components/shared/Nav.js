@@ -18,13 +18,23 @@ export default function Nav() {
             </Link>
           </li>
           <li>
-            <Link href="/slide">
-              <a className={activeLink("/slide")}>Slide</a>
+            <Link href="/list">
+              <a className={activeLink("/list")}>List</a>
             </Link>
           </li>
           <li>
-            <Link href="/list">
-              <a className={activeLink("/list")}>List</a>
+            <Link href="/text">
+              <a className={activeLink("/text")}>Text</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/form">
+              <a className={activeLink("/form")}>Form</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/slider">
+              <a className={activeLink("/slider")}>Slider</a>
             </Link>
           </li>
         </ul>
