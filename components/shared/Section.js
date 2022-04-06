@@ -9,7 +9,7 @@ export default function Section({ title, children }) {
         section {
           margin-top: 40px;
           padding: 15px 10px;
-          background: #dcd6f7;
+          background: #f4eeff;
           border-radius: 15px;
         }
         section + section {
