@@ -9,11 +9,11 @@ export default function Section({ title, children }) {
         section {
           margin-top: 40px;
           padding: 15px 10px;
-          background: #f4eeff;
+          background: #dcd6f7;
           border-radius: 15px;
         }
         section + section {
-          margin-top: 15px;
+          margin-top: 20px;
         }
         h3 {
           padding-bottom: 20px;
