@@ -1,4 +1,4 @@
-import { CSS, HTML } from "../../constants/highlight/VerticalInput";
+import { HTML } from "../../constants/highlight/VerticalInput";
 import HighlightGroup from "../shared/HighlightGroup";
 
 export default function VerticalInput() {
@@ -32,7 +32,7 @@ export default function VerticalInput() {
           <input type="text" />
         </div>
       </div>
-      <HighlightGroup html={HTML} css={CSS} />
+      <HighlightGroup html={HTML} />
     </>
   );
 }

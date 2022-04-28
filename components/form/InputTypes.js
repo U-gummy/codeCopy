@@ -1,6 +1,10 @@
+import { HTML } from "../../constants/highlight/CheckBoxs";
+import HighlightGroup from "../shared/HighlightGroup";
+
 export default function InputTypes() {
   return (
     <>
+      {/* select */}
       <div className="input-group-box">
         <div className="input-box">
           <select>
@@ -19,11 +23,15 @@ export default function InputTypes() {
           </select>
         </div>
       </div>
+
+      {/* with button */}
       <div className="input-box with-btn">
         <label>with button</label>
         <input type="text" />
         <button type="button">중복체크</button>
       </div>
+
+      {/* input file */}
       <div className="input-box">
         <label>File input</label>
         <div className="input-file">
@@ -39,6 +47,7 @@ export default function InputTypes() {
           <label htmlFor="inputFile">첨부파일</label>
         </div>
       </div>
+      <HighlightGroup html={HTML} />
     </>
   );
 }

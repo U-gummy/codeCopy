@@ -1,3 +1,6 @@
+import { HTML } from "../../constants/highlight/CheckBoxs";
+import HighlightGroup from "../shared/HighlightGroup";
+
 export default function CheckBoxs() {
   return (
     <>
@@ -10,6 +13,7 @@ export default function CheckBoxs() {
         <label htmlFor="check2">Default Checkbox</label>
       </div>
 
+      {/* checkbox group */}
       <div className="chk-box-group">
         <div className="chk-box">
           <input type="checkbox" id="check3"></input>
@@ -29,6 +33,7 @@ export default function CheckBoxs() {
         </div>
       </div>
 
+      {/* button checkbox */}
       <div className="btn-chk-box-group">
         <div className="chk-box">
           <input type="checkbox" id="check7" defaultChecked></input>
@@ -47,6 +52,7 @@ export default function CheckBoxs() {
           <label htmlFor="check10">Button Checkbox</label>
         </div>
       </div>
+      <HighlightGroup html={HTML} />
     </>
   );
 }

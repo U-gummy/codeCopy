@@ -1,3 +1,6 @@
+import { HTML } from "../../constants/highlight/CheckBoxsWithInput";
+import HighlightGroup from "../shared/HighlightGroup";
+
 export default function CheckBoxsWithInput() {
   return (
     <>
@@ -20,6 +23,7 @@ export default function CheckBoxsWithInput() {
           </div>
         </div>
       </div>
+      <HighlightGroup html={HTML} />
     </>
   );
 }

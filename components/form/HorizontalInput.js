@@ -1,3 +1,6 @@
+import { CSS, HTML } from "../../constants/highlight/HorizontalInput";
+import HighlightGroup from "../shared/HighlightGroup";
+
 export default function HorizontalInput() {
   return (
     <>
@@ -26,6 +29,7 @@ export default function HorizontalInput() {
           <input type="text"></input>
         </div>
       </div>
+      <HighlightGroup html={HTML} />
     </>
   );
 }

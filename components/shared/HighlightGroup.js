@@ -2,7 +2,7 @@ import Highlight from "react-highlight";
 import { useState } from "react";
 
 export default function HighlightGroup(props) {
-  const [mode, setMode] = useState("html");
+  const [mode, setMode] = useState(props.html ? "html" : "css");
   const [codeMode, setCodeMode] = useState(false);
 
   const copy = () => {
@@ -22,7 +22,7 @@ export default function HighlightGroup(props) {
           className="btn-code"
           onClick={() => setCodeMode(!codeMode)}
         >
-          code
+          {props.btnText ?? "code"}
         </button>
       </div>
       {codeMode && (
@@ -31,12 +31,16 @@ export default function HighlightGroup(props) {
             copy
           </button>
           <div className="button-top">
-            <button type="button" onClick={() => setMode("html")}>
-              html
-            </button>
-            <button type="button" onClick={() => setMode("css")}>
-              css
-            </button>
+            {props.html && (
+              <button type="button" onClick={() => setMode("html")}>
+                html
+              </button>
+            )}
+            {props.css && (
+              <button type="button" onClick={() => setMode("css")}>
+                css
+              </button>
+            )}
             {props.js && (
               <button type="button" onClick={() => setMode("js")}>
                 js
@@ -64,8 +68,8 @@ export default function HighlightGroup(props) {
             text-align:right;
           }
           .btn-code {
-            width:80px;
             height:40px;
+            padding:0 15px;
             background:#424874;
             border-radius:25px;
             font-size:16px;

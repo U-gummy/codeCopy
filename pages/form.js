@@ -4,13 +4,17 @@ import HorizontalInput from "../components/form/HorizontalInput";
 import InputTypes from "../components/form/InputTypes";
 import Radios from "../components/form/Radios";
 import VerticalInput from "../components/form/VerticalInput";
+import HighlightGroup from "../components/shared/HighlightGroup";
 import Section from "../components/shared/Section";
 import Title from "../components/shared/Title";
+import { CSS } from "../constants/highlight/Form";
 
 export default function Form() {
   return (
     <>
-      <Title name="Form" />
+      <Title name="Form">
+        <HighlightGroup css={CSS} btnText="form all css" />
+      </Title>
       <Section title="Vertical Input">
         <VerticalInput />
       </Section>

@@ -1,3 +1,6 @@
+import { HTML } from "../../constants/highlight/Radios";
+import HighlightGroup from "../shared/HighlightGroup";
+
 export default function Radios() {
   return (
     <>
@@ -10,6 +13,7 @@ export default function Radios() {
         <label htmlFor="radio2">Default Radio</label>
       </div>
 
+      {/* radio group */}
       <div className="radio-box-group">
         <div className="radio-box">
           <input type="radio" id="radio3" name="r2"></input>
@@ -29,6 +33,7 @@ export default function Radios() {
         </div>
       </div>
 
+      {/* button radio */}
       <div className="btn-radio-box-group">
         <div className="radio-box">
           <input type="radio" id="radio7" name="r3" defaultChecked></input>
@@ -47,6 +52,7 @@ export default function Radios() {
           <label htmlFor="radio10">Button Radio</label>
         </div>
       </div>
+      <HighlightGroup html={HTML} />
     </>
   );
 }
