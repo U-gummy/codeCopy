@@ -5,6 +5,11 @@
 .input-box label + input { margin-top: 8px; } 
 .input-box label { font-size: 15px; } 
 
+/* horizontal */
+.input-box.horizon {display: flex;align-items:center;}
+.input-box.horizon input {margin-left:15px;}
+.input-box.horizon + .input-box.horizon {margin-left:20px}
+
 /* with button */
 .input-box.with-btn input { padding-right: 115px; } 
 .input-box.with-btn button { position: absolute; bottom: 0; right: 0; width: 100px; height: 48px; background: #424874; font-size: 15px; text-align: center; line-height: 48px; color: #fff; } 

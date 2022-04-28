@@ -8,7 +8,7 @@ export default function Section({ title, children }) {
       <style jsx>{`
         section {
           margin-top: 40px;
-          padding: 15px 10px;
+          padding: 20px 20px;
           background: #f4eeff;
           border-radius: 15px;
         }
@@ -18,7 +18,7 @@ export default function Section({ title, children }) {
         h3 {
           padding-bottom: 20px;
           font-size: 22px;
-          font-weight: 400;
+          font-weight: 500;
         }
       `}</style>
     </>
