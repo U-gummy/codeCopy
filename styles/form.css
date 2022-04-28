@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.input-group-box {
+  display: flex;
+  margin-top: 10px;
+}
+.input-group-box .input-box {
+  flex: 1;
+  margin-top: 0;
+}
+.input-group-box .input-box + .input-box {
+  margin-left: 10px;
+}
+.input-box {
+  align-self: end;
+}
+.input-box + .input-box {
+  margin-top: 10px;
+}
+.input-box label + input {
+  margin-top: 5px;
+}
+.input-box label {
+  font-size: 15px;
+}

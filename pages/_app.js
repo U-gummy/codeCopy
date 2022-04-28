@@ -1,4 +1,5 @@
 import "../styles/globals.css";
+import "../styles/form.css";
 import "../styles/atom-one-dark-reasonable.css";
 import Layout from "./layout";
 

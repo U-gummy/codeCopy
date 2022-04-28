@@ -46,7 +46,7 @@ export default function InputTypes() {
             margin-top: 10px;
           }
           .input-box label + input {
-            margin-top: 5px;
+            margin-top: 10px;
           }
           .input-box label {
             font-size: 15px;
@@ -83,11 +83,11 @@ export default function InputTypes() {
             bottom: 0;
             right: 0;
             width: 100px;
-            height: 50px;
+            height: 48px;
             background: #424874;
             font-size: 15px;
             text-align: center;
-            line-height: 50px;
+            line-height: 48px;
             color: #fff;
           }
            {
@@ -104,7 +104,7 @@ export default function InputTypes() {
             bottom: 0;
             left: 0;
             font-size: 0;
-            height: 50px;
+            height: 48px;
           }
           .input-box .input-file label:after {
             content: "첨부파일";
@@ -113,11 +113,11 @@ export default function InputTypes() {
             right: 0;
             top: 0;
             width: 100px;
-            height: 50px;
+            height: 48px;
             background: #424874;
             font-size: 15px;
             text-align: center;
-            line-height: 50px;
+            line-height: 48px;
             color: #fff;
           }
           .input-box .input-file input[type="file"] {
