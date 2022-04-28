@@ -2,7 +2,7 @@ export default function Radios() {
   return (
     <>
       <div className="radio-box">
-        <input type="radio" id="radio" name="r1"></input>
+        <input type="radio" id="radio" name="r1" defaultChecked></input>
         <label htmlFor="radio">Default Radio</label>
       </div>
       <div className="radio-box">
@@ -26,6 +26,25 @@ export default function Radios() {
         <div className="radio-box">
           <input type="radio" id="radio6" name="r2"></input>
           <label htmlFor="radio6">Default Radio</label>
+        </div>
+      </div>
+
+      <div className="btn-radio-box-group">
+        <div className="radio-box">
+          <input type="radio" id="radio7" name="r3" defaultChecked></input>
+          <label htmlFor="radio7">Button Radio</label>
+        </div>
+        <div className="radio-box">
+          <input type="radio" id="radio8" name="r3"></input>
+          <label htmlFor="radio8">Button Radio</label>
+        </div>
+        <div className="radio-box">
+          <input type="radio" id="radio9" name="r3"></input>
+          <label htmlFor="radio9">Button Radio</label>
+        </div>
+        <div className="radio-box">
+          <input type="radio" id="radio10" name="r3"></input>
+          <label htmlFor="radio10">Button Radio</label>
         </div>
       </div>
     </>
