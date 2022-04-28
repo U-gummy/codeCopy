@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-export default function ThumbnailList() {
+export default function ThumbnailListRow() {
   return (
     <>
       <ul className="thumbnail-list">
