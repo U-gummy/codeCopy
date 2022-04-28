@@ -49,3 +49,6 @@
 
 /* check box with input */
 .input-box input + .chk-box { margin-top: 10px; } 
+.with-chk-box-row {display: flex;align-items:center; margin-top:8px;}
+.with-chk-box-row input[type="text"] {flex:1;}
+.with-chk-box-row input + .chk-box {margin-left:10px; margin-top:0;}
