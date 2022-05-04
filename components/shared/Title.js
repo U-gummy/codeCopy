@@ -14,7 +14,7 @@ export default function Title({ name, children }) {
         }
         h2 {
           font-size: 40px;
-          color: #000;
+          color: #333;
           letter-spacing: 5px;
         }
       `}</style>

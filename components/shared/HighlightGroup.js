@@ -70,7 +70,7 @@ export default function HighlightGroup(props) {
           .btn-code {
             height:40px;
             padding:0 15px;
-            background:#424874;
+            background:#2F5D62;
             border-radius:25px;
             font-size:16px;
             color:#fff;

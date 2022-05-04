@@ -19,7 +19,7 @@ export default function Layout({ children }) {
           display: flex;
           height: 100%;
           padding: 15px 15px 15px 0;
-          background: #a6b1e1;
+          background: #d3e4cd;
         }
         .content {
           flex: 1;

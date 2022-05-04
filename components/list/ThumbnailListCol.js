@@ -71,8 +71,6 @@ export default function ThumbnailListCol() {
       </ul>
 
       <style jsx>{`
-        .thumbnail-list {
-        }
         .thumbnail-list li {
           display: flex;
           justify-content: center;

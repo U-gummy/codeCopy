@@ -23,8 +23,8 @@ export default function Nav() {
             </Link>
           </li>
           <li>
-            <Link href="/text">
-              <a className={activeLink("/text")}>Text</a>
+            <Link href="/tables">
+              <a className={activeLink("/tables")}>Tables</a>
             </Link>
           </li>
           <li>
@@ -45,11 +45,11 @@ export default function Nav() {
           padding: 28px 30px;
           font-size: 28px;
           font-weight: 900;
-          color: #424874;
+          color: #333;
         }
         nav {
           width: 230px;
-          background: #a6b1e1;
+          background: #d3e4cd;
         }
         nav ul {
           margin-top: 20px;
@@ -60,11 +60,11 @@ export default function Nav() {
           height: 50px;
           padding-left: 30px;
           line-height: 50px;
-          color: #dcd6f7;
+          color: #999;
           font-size: 18px;
         }
         a.active {
-          color: #fff;
+          color: #333;
           font-size: 21px;
           font-weight: 700;
         }
