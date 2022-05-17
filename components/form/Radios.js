@@ -1,4 +1,4 @@
-import { HTML } from "../../constants/highlight/Radios";
+import { HTML } from "../../constants/highlight/form/Radios";
 import HighlightGroup from "../shared/HighlightGroup";
 
 export default function Radios() {

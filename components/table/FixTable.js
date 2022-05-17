@@ -76,7 +76,7 @@ export default function FixTable() {
           position: relative;
           border: 1px solid #333;
           padding-top: 50px;
-          background: #2f5d62;
+          background: #d3e4cd;
         }
         .fixed .wrap {
           overflow-y: auto;
@@ -108,7 +108,7 @@ export default function FixTable() {
         .fixed th div {
           position: absolute;
           height: 50px;
-          color: #fff;
+          color: #333;
           padding: 12px 20px;
           top: 0;
           margin-left: -21px;

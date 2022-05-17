@@ -1,4 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
+import { HTML, CSS } from "../../constants/highlight/list/ThumbnailListRow";
+import HighlightGroup from "../shared/HighlightGroup";
+
 export default function ThumbnailListRow() {
   return (
     <>
@@ -134,6 +137,7 @@ export default function ThumbnailListRow() {
           </div>
         </li>
       </ul>
+      <HighlightGroup html={HTML} css={CSS} />
 
       <style jsx>{`
         .thumbnail-list {

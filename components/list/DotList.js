@@ -1,3 +1,6 @@
+import { HTML, CSS } from "../../constants/highlight/list/DotLIst";
+import HighlightGroup from "../shared/HighlightGroup";
+
 export default function DotList() {
   return (
     <>
@@ -20,6 +23,7 @@ export default function DotList() {
           Ipsum.
         </li>
       </ul>
+      <HighlightGroup html={HTML} css={CSS} />
 
       <style jsx>{`
         .dot-list li {

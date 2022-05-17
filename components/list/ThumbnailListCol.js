@@ -1,4 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
+import { HTML, CSS } from "../../constants/highlight/list/ThumbnailListCol";
+import HighlightGroup from "../shared/HighlightGroup";
+
 export default function ThumbnailListCol() {
   return (
     <>
@@ -69,6 +72,7 @@ export default function ThumbnailListCol() {
           </div>
         </li>
       </ul>
+      <HighlightGroup html={HTML} css={CSS} />
 
       <style jsx>{`
         .thumbnail-list li {

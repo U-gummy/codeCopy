@@ -71,9 +71,9 @@ export default function Table() {
           border-bottom: none;
         }
         th {
-          background: #2f5d62;
+          background: #d3e4cd;
           white-space: nowrap;
-          color: #fff;
+          color: #333;
 
           border-top: 1px solid #333;
         }

@@ -1,4 +1,4 @@
-import { HTML } from "../../constants/highlight/VerticalInput";
+import { HTML } from "../../constants/highlight/form/VerticalInput";
 import HighlightGroup from "../shared/HighlightGroup";
 
 export default function VerticalInput() {

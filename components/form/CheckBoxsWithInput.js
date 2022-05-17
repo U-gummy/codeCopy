@@ -1,4 +1,4 @@
-import { HTML } from "../../constants/highlight/CheckBoxsWithInput";
+import { HTML } from "../../constants/highlight/form/CheckBoxsWithInput";
 import HighlightGroup from "../shared/HighlightGroup";
 
 export default function CheckBoxsWithInput() {

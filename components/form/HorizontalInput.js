@@ -1,4 +1,4 @@
-import { CSS, HTML } from "../../constants/highlight/HorizontalInput";
+import { CSS, HTML } from "../../constants/highlight/form/HorizontalInput";
 import HighlightGroup from "../shared/HighlightGroup";
 
 export default function HorizontalInput() {
