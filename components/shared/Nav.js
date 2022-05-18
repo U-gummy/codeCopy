@@ -33,10 +33,15 @@ export default function Nav() {
             </Link>
           </li>
           <li>
+            <Link href="/scroll">
+              <a className={activeLink("/scroll")}>Scroll</a>
+            </Link>
+          </li>
+          {/* <li>
             <Link href="/slider">
               <a className={activeLink("/slider")}>Slider</a>
             </Link>
-          </li>
+          </li> */}
         </ul>
       </nav>
 

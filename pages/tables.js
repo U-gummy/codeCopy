@@ -5,7 +5,7 @@ import Table from "../components/table/Table";
 
 export default function Tables() {
   return (
-    <>
+    <div className="content">
       <Title name="Table" />
       <Section title="Table">
         <Table />
@@ -13,6 +13,6 @@ export default function Tables() {
       <Section title="Fiexed Table">
         <FixTable />
       </Section>
-    </>
+    </div>
   );
 }

@@ -7,7 +7,7 @@ import ThumbnailListCol from "../components/list/ThumbnailListCol";
 
 export default function List() {
   return (
-    <>
+    <div className="content">
       <Title name="List" />
       <Section title="Dot List">
         <DotList />
@@ -21,6 +21,6 @@ export default function List() {
       <Section title="Thumbnail List Col">
         <ThumbnailListCol />
       </Section>
-    </>
+    </div>
   );
 }

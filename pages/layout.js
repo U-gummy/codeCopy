@@ -6,30 +6,9 @@ export default function Layout({ children }) {
       <div id="wrapper">
         <div className="container">
           <Nav />
-          <div className="content">{children}</div>
+          {children}
         </div>
       </div>
-
-      <style jsx>{`
-        #wrapper {
-          height: 100%;
-          background-color: #fff;
-        }
-        .container {
-          display: flex;
-          height: 100%;
-          padding: 15px 15px 15px 0;
-          background: #d3e4cd;
-        }
-        .content {
-          flex: 1;
-          overflow: auto;
-          padding: 20px;
-          background: #fff;
-          border-radius: 20px;
-          overflow: auto;
-        }
-      `}</style>
     </>
   );
 }

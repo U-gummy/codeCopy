@@ -7,11 +7,11 @@ import VerticalInput from "../components/form/VerticalInput";
 import HighlightGroup from "../components/shared/HighlightGroup";
 import Section from "../components/shared/Section";
 import Title from "../components/shared/Title";
-import { CSS } from "../constants/highlight/Form";
+import { CSS } from "../constants/highlight/form/Form";
 
 export default function Form() {
   return (
-    <>
+    <div className="content">
       <Title name="Form">
         <HighlightGroup css={CSS} btnText="form all css" />
       </Title>
@@ -33,6 +33,6 @@ export default function Form() {
       <Section title="CheckBoxs With Input">
         <CheckBoxsWithInput />
       </Section>
-    </>
+    </div>
   );
 }
